@@ -16,7 +16,7 @@ class Config {
             'client_id' => '',
             'client_secret' => '',
             'access_token' => '',
-            'redirect_uri' => 'https://news.jretech.com/api/aweber/v1/oauth',
+            'redirect_uri' => '',
             'list_id' => '',
             'accountId' => '',
         ];
