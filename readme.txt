@@ -1,17 +1,7 @@
-## Quickstart
-download the file https://github.com/punisher08/aweber
-Install it on you local machine server
-Open the directory to you browser
-    
-## Running examples
-Input credentials to "config.php" if you have access_token you can add it else you can generate by opening the directory in your folder and click generate access token.
+I have created a MVC pattern using php to develop Aweber API.
+I used this pattern because I want this project to be scalable and you can add more featerurs to this by adding controllers and using MYSQL Database in future.
 
-    'client_id' => '',
-    'client_secret' => '',
-    'access_token' => '',
-    'redirect_uri' => 'https://news.jretech.com/api/aweber/v1/oauth',
-    'list_id' => '',
-    'accountId' => '',
+I am trying to follow the Laravel structure on this project.
 
-
-
+All configuration must be place in the config.php file and on the index.php defines the routes avaible and controller. It also have a 404 and action not found handlers as of now and 
+I am trying to improve this structure and use it on my small projects.
