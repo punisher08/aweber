@@ -1,6 +1,7 @@
 ## Quickstart
 download the file https://github.com/punisher08/aweber
 Install it on you local machine server
+run composer install
 Open the directory to you browser
     
 ## Running examples
