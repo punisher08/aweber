@@ -1,6 +1,6 @@
 ## Quickstart
 download the file https://github.com/punisher08/aweber
-Install it on you local machine server
+Install it on you local machine server and configure the url like ( ex. aweber.test ) or it should be on the root folder.
 
 ## Install dependencies
     run 'composer install'
