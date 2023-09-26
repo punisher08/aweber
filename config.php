@@ -10,7 +10,7 @@ class Config {
             'database_host' => 'localhost',
             'database_user' => 'root',
             'database_password' => '',
-            'database_name' => '',
+            'database_name' => 'aweber',
             'base_path' => dirname(__FILE__),
             // other configuration values
             'client_id' => '',
