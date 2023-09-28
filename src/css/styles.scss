@@ -1,0 +1,245 @@
+header{
+    #panel:hover  ~ #_submenu{
+        
+            display: block !important;
+            visibility: visible !important;
+        
+    }
+}
+#_submenu{
+    top: 4rem !important;
+    z-index: 9999;
+}
+#_submenu:hover{
+    display: block !important;
+    visibility: visible !important;
+}
+.pb-full {
+    padding-bottom: 100%;
+  }
+  
+  /* hide search icon on search focus */
+  .search-bar:focus + .fa-search{
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .post:hover .overlay {
+      display: block;
+    }
+  }
+  .aside_menu{
+    @media screen and (max-width: 768px) {
+        display: none !important;
+    }
+  }
+
+  .registration_form{
+    .item:nth-child(1){
+      
+    }
+    .item:nth-child(2){
+      background-image: url(/src/images/register.png);
+      height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .user_list{
+      ._user_list_container{
+        width: 100% !important;
+        table{
+          width: 100% !important;
+          thead{
+            tr{
+              th{
+                text-align: left;
+              }
+            }
+          }
+        }
+    }
+  }
+  
+._options{
+  ._users_option_menus{
+    li{
+      cursor: pointer !important;
+    }
+  }
+}
+
+._aside{
+  @media screen and (max-width: 768px) {
+    // display: none !important;
+    
+    position: absolute;
+    height: 100vh;
+    z-index: 999;
+
+  }
+  &._mobile_hidden{
+    visibility: hidden;
+    display: none;
+    @media screen and (max-width: 768px) {
+      // visibility: hidden;
+      // display: none;
+    }
+
+  }
+}
+
+._chat_container{
+  .grid{
+    ._item{
+        &:nth-child(2){
+          
+         max-height: 100vh;
+         padding-bottom: 5rem;
+         scrollbar-width: none; /* Hide standard scrollbar in Firefox */
+         -ms-overflow-style: none; /* Hide standard scrollbar in IE and Edge */
+         &::-webkit-scrollbar{
+           width: 0; /* Hide standard scrollbar in Chrome and Safari */
+           height: 0;
+         }
+
+        }
+        &:nth-child(1){
+          height: 100vh;
+          max-height: 100vh;
+          overflow-y: auto;
+          scrollbar-width: none; /* Hide standard scrollbar in Firefox */
+          -ms-overflow-style: none; /* Hide standard scrollbar in IE and Edge */
+          &::-webkit-scrollbar{
+            width: 0; /* Hide standard scrollbar in Chrome and Safari */
+            height: 0;
+          }
+          ._action_btns{
+            button{
+              padding: 5px 20px;
+            }
+          }
+        }
+      ._chat_head{
+        ._heading{
+
+        }
+      }
+    }
+  }
+  .write_message{
+    form{
+      position: fixed;
+      bottom: 0;
+      width: -webkit-fill-available;
+    }
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    i{
+      font-size: 1.5rem;
+    }
+  }
+}
+#_message{
+  .__text_group{
+    &.my_message{
+      display: flex;
+      justify-content: flex-end;
+      .bg-white{
+        background: #2563eb47;
+        p{
+          color: #fff;
+        }
+      }
+      
+    }
+
+  }
+}
+@supports (-moz-appearance: none) {
+  .write_message{
+    form{
+      position: fixed;
+      bottom: 0;
+      width: -webkit-fill-available;
+    }
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    i{
+      font-size: 1.5rem;
+    }
+  }
+
+}
+._chat_container{
+  .grid{
+    ._item{
+      ._chat_head{
+        .btn_search{
+          @media screen and (min-width:1024px) {
+            flex-wrap: wrap;
+          }
+        
+        }
+      }
+    }
+  }
+}
+
+#calendar{
+  .fc-header-toolbar{
+    @media screen and (max-width:768px) {
+      flex-direction: column !important;
+    }
+  }
+}
+
+#add_data{
+  // display: none;
+  h2{
+    text-align: center;
+    margin-right: 15%;
+    margin-bottom: 2%;
+  }
+}
+
+
+#view_data{
+  h2{
+    text-align: center;
+    margin-right: 15%;
+    margin-bottom: 2%;
+  }
+  .container{
+    .container1{
+      .container2{
+        .table_view{
+          width: 100%;
+          tbody{
+            tr{
+              #btn_item{
+                display: inline-flex;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#update_data{
+  // display: none;
+  h2{
+    text-align: center;
+    margin-right: 15%;
+    margin-bottom: 2%;
+  }
+}
+
+

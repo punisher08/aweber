@@ -15,12 +15,19 @@ $requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $routes = [
     /** AWEBER API */
     '/' => 'AweberController@index',
+    '/dashboard' => 'AweberController@index',
     '/api/aweber/v1/subscribed' => 'AweberController@user_subscribed',
     '/api/aweber/v1/oauth' => 'AweberController@oauth_callback',
     // Generate access token
     '/api/aweber/accesstoken' => 'AweberController@generate_access_token',
     '/aweber/subscriber/add' => 'AweberController@add_subscriber',
     '/aweber/subscriber/form' => 'AweberController@add_form',
+    
+    '/login' => 'HomeController@login',
+    '/signin' => 'HomeController@signin',
+    '/register' => 'HomeController@registration',
+    '/account/create' => 'HomeController@account_create',
+    '/signout' => 'UserController@signout',
 ];
 
 $route = $routes[$requestPath] ?? '@';

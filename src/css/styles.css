@@ -1,1 +1,168 @@
-/*# sourceMappingURL=styles.css.map */
+header #panel:hover ~ #_submenu {
+  display: block !important;
+  visibility: visible !important;
+}
+
+#_submenu {
+  top: 4rem !important;
+  z-index: 9999;
+}
+
+#_submenu:hover {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.pb-full {
+  padding-bottom: 100%;
+}
+
+/* hide search icon on search focus */
+.search-bar:focus + .fa-search {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .post:hover .overlay {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aside_menu {
+    display: none !important;
+  }
+}
+
+.registration_form .item:nth-child(2) {
+  background-image: url(/src/images/register.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user_list ._user_list_container {
+  width: 100% !important;
+}
+.user_list ._user_list_container table {
+  width: 100% !important;
+}
+.user_list ._user_list_container table thead tr th {
+  text-align: left;
+}
+
+._options ._users_option_menus li {
+  cursor: pointer !important;
+}
+
+@media screen and (max-width: 768px) {
+  ._aside {
+    position: absolute;
+    height: 100vh;
+    z-index: 999;
+  }
+}
+._aside._mobile_hidden {
+  visibility: hidden;
+  display: none;
+}
+._chat_container .grid ._item:nth-child(2) {
+  max-height: 100vh;
+  padding-bottom: 5rem;
+  scrollbar-width: none; /* Hide standard scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide standard scrollbar in IE and Edge */
+}
+._chat_container .grid ._item:nth-child(2)::-webkit-scrollbar {
+  width: 0; /* Hide standard scrollbar in Chrome and Safari */
+  height: 0;
+}
+._chat_container .grid ._item:nth-child(1) {
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none; /* Hide standard scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide standard scrollbar in IE and Edge */
+}
+._chat_container .grid ._item:nth-child(1)::-webkit-scrollbar {
+  width: 0; /* Hide standard scrollbar in Chrome and Safari */
+  height: 0;
+}
+._chat_container .grid ._item:nth-child(1) ._action_btns button {
+  padding: 5px 20px;
+}
+._chat_container .write_message {
+  position: fixed;
+  bottom: 0;
+  width: -webkit-fill-available;
+  width: -moz-available;
+}
+._chat_container .write_message form {
+  position: fixed;
+  bottom: 0;
+  width: -webkit-fill-available;
+}
+._chat_container .write_message i {
+  font-size: 1.5rem;
+}
+
+#_message .__text_group.my_message {
+  display: flex;
+  justify-content: flex-end;
+}
+#_message .__text_group.my_message .bg-white {
+  background: rgba(37, 99, 235, 0.2784313725);
+}
+#_message .__text_group.my_message .bg-white p {
+  color: #fff;
+}
+
+@supports (-moz-appearance: none) {
+  .write_message {
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+    width: -moz-available;
+  }
+  .write_message form {
+    position: fixed;
+    bottom: 0;
+    width: -webkit-fill-available;
+  }
+  .write_message i {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  ._chat_container .grid ._item ._chat_head .btn_search {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #calendar .fc-header-toolbar {
+    flex-direction: column !important;
+  }
+}
+
+#add_data h2 {
+  text-align: center;
+  margin-right: 15%;
+  margin-bottom: 2%;
+}
+
+#view_data h2 {
+  text-align: center;
+  margin-right: 15%;
+  margin-bottom: 2%;
+}
+#view_data .container .container1 .container2 .table_view {
+  width: 100%;
+}
+#view_data .container .container1 .container2 .table_view tbody tr #btn_item {
+  display: inline-flex;
+}
+
+#update_data h2 {
+  text-align: center;
+  margin-right: 15%;
+  margin-bottom: 2%;
+}/*# sourceMappingURL=styles.css.map */
